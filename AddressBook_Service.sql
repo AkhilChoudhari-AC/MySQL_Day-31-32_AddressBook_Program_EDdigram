@@ -27,3 +27,6 @@ SELECT * FROM adbook where city = 'Bhopal' or state = 'MadhyaPradesh';
 
 #UC7
 SELECT COUNT(city or state)FROM adbook;
+
+#UC8
+select fname from adbook where city = 'Bhopal'order by fname asc;
