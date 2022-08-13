@@ -37,3 +37,6 @@ update  adbook set type='Family' where fname ='Akhil';
 update  adbook set type='Friends' where fname  ='Ashu';
 update  adbook set type='Friends' where fname  ='Saloni';
 update  adbook set type='Profession' where fname  ='Akhil';
+
+#UC10
+SELECT COUNT(type) AS Number_Of_Contact_Person FROM adbook;
