@@ -24,3 +24,6 @@ DELETE FROM  adbook where fname = 'Tina';
 
 #UC6
 SELECT * FROM adbook where city = 'Bhopal' or state = 'MadhyaPradesh';
+
+#UC7
+SELECT COUNT(city or state)FROM adbook;
