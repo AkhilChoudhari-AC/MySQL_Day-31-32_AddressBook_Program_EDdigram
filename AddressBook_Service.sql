@@ -14,3 +14,6 @@ insert into adbook(fname, lname, city, state, zip, phone, email) values
 ('Ashu', 'Sharma', 'Indore', 'UtterPradesh', 345242, 9998887772, 'ashuxyxy@gmail.com' ),
 ('Tina', 'Singh', 'Pune', 'Bihar', 345641, 9998887773, 'tinaxyxy@gmail.com' ),
 ('Saloni', 'Gupta', 'Jhansi', 'UtterPradesh', 223213, 9998887774, 'saloni@gmail.com' );
+
+#UC4
+UPDATE adbook SET city = 'Mumbai',state = 'Maharashtra',zip = 456789 where fname = 'Rohit';
