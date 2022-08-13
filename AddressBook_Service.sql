@@ -69,3 +69,12 @@ select * from adbbok1;
 select * from adbook2;
 select * from adbook3;
 select * from adbook4;
+
+#UC13
+use ad_book_service;
+SELECT * from adbbok1 inner join adbbok2 where city = 'riva' OR stsate = 'MP';
+SELECT  city, state, COUNT(*) from adbookwhere city = 'chennai' AND state = 'TamilNaru';
+SELECT * FROM adbook WHERE state = 'MadhyaPradesh' ORDER BY firstname ASC;
+SELECT type, count(*) FROM adbook join adbook3 group by type;
+select * from adbook inner join adbook3 ON adbook.id = 1 and adbook3.id IN(1,2);
+select * from adbook inner join adbook2 inner join adbook3 ON adbook.id = 1 and adbook3.id= '1' and adbook3.id IN (1);
