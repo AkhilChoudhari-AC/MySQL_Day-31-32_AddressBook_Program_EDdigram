@@ -40,3 +40,7 @@ update  adbook set type='Profession' where fname  ='Akhil';
 
 #UC10
 SELECT COUNT(type) AS Number_Of_Contact_Person FROM adbook;
+
+#UC11
+insert into adbook(fname, lname, city, state, zip, phone, email) values('Pinky', 'sharma', 'Sage', 'MP', 414501, 9999888777, 'pinky@gmail.com' );
+update  adbook set type='Family' where id =5;
