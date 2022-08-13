@@ -21,3 +21,6 @@ UPDATE adbook SET city = 'Mumbai',state = 'Maharashtra',zip = 456789 where fname
 #UC5
 use AD_BOOK_SERVICE;
 DELETE FROM  adbook where fname = 'Tina';
+
+#UC6
+SELECT * FROM adbook where city = 'Bhopal' or state = 'MadhyaPradesh';
