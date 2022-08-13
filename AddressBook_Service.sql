@@ -16,4 +16,8 @@ insert into adbook(fname, lname, city, state, zip, phone, email) values
 ('Saloni', 'Gupta', 'Jhansi', 'UtterPradesh', 223213, 9998887774, 'saloni@gmail.com' );
 
 #UC4
-UPDATE adbook SET city = 'Mumbai',state = 'Maharashtra',zip = 456789 where fname = 'Rohit';
+UPDATE adbook SET city = 'Mumbai',state = 'Maharashtra',zip = 456789 where fname = 'Tina';
+
+#UC5
+use AD_BOOK_SERVICE;
+DELETE FROM  adbook where fname = 'Tina';
