@@ -30,3 +30,10 @@ SELECT COUNT(city or state)FROM adbook;
 
 #UC8
 select fname from adbook where city = 'Bhopal'order by fname asc;
+
+ #UC9
+Alter table adbook add type varchar(15) after lname;
+update  adbook set type='Family' where fname ='Akhil';
+update  adbook set type='Friends' where fname  ='Ashu';
+update  adbook set type='Friends' where fname  ='Saloni';
+update  adbook set type='Profession' where fname  ='Akhil';
